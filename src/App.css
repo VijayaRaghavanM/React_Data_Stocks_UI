@@ -1,0 +1,141 @@
+.card {
+  height: 100px;
+  min-width: 800px;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 1px #3b3b3b;
+  border-radius: 5px;
+  padding: 0px 10px;
+  display: grid;
+  grid-template-columns: 5vw auto auto auto auto auto auto;
+}
+
+div[class^="col"] {
+  float: left;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3b3b3b;
+}
+
+div.col4 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  /* grid-template-rows: auto auto auto; */
+  grid-template-areas:
+    "Q . QV"
+    "C . CV"
+    "A . AV";
+}
+
+.quantity {
+  grid-area: Q;
+}
+.avg_cost {
+  grid-area: C;
+}
+.invested_amt {
+  grid-area: A;
+}
+
+.quantity,
+.avg_cost,
+.invested_amt {
+  color: #3b3b3b;
+  font-size: 70%;
+}
+
+.quantity_val,
+.avg_cost_val,
+.invested_amt_val {
+  font-weight: bolder;
+  font-size: 70%;
+}
+
+.market_value,
+.unrealized {
+  font-weight: bolder;
+}
+
+.portfolio_value,
+.return {
+  font-size: 80%;
+}
+
+.quantity_val {
+  grid-area: QV;
+}
+.avg_cost_val {
+  grid-area: CV;
+}
+.invested_amt_val {
+  grid-area: AV;
+}
+
+.col3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.name {
+  color: #3b3b3b;
+  font-size: 80%;
+}
+.price {
+  color: #05b4b4;
+  font-weight: bold;
+  font-size: 130%;
+}
+.price::first-letter {
+  color: #3b3b3b;
+  font-size: 80%;
+  font-weight: normal;
+}
+.ishares {
+  color: #83ce83;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.index_name {
+  font-weight: bold;
+}
+.index_subname {
+  font-size: 12px;
+}
+
+div.col7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+div.col7 button {
+  background: white;
+  color: orange;
+  border: 1px solid;
+  border-radius: 3px;
+  width: 100%;
+  padding: 5px;
+}
+
+.down {
+  color: #2cda0d;
+}
+
+.up {
+  color: #bb0404;
+}

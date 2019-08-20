@@ -1,0 +1,31 @@
+.outer1 {
+  /* border: 1px solid green; */
+  position: relative;
+  background: rgb(204, 204, 204);
+  height: 10px;
+  width: 150px;
+  padding: 0px;
+  margin-top: 5px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.inner1 {
+  position: absolute;
+  transform-origin: right center;
+  width: 50%;
+  display: inline-block;
+  height: 100%;
+  /* border-radius: 30px 0px 0px 30px; */
+  background: #bb0404;
+}
+.inner2 {
+  transform-origin: left center;
+  position: absolute;
+  width: 50%;
+  display: inline-block;
+  left: 50%;
+  height: 100%;
+  /* border-radius: 30px 0px 0px 30px; */
+  background: #2cda0d;
+}

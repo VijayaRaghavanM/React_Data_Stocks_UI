@@ -1,4 +1,36 @@
+body {
+  background: rgb(212, 212, 212);
+}
+
+.app {
+  display: flex;
+  align-items: center;
+}
+
+.mf {
+  /* height: 40px; */
+  /* width: 40px; */
+  background: #e38627;
+}
+
+.etf {
+  /* height: 40px; */
+  /* width: 40px; */
+  background: #c13c37;
+}
+
+.mf,
+.etf {
+  text-align: center;
+  margin: 20px;
+}
+.chart {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
 .card {
+  background: white;
   height: 100px;
   min-width: 800px;
   width: 80%;

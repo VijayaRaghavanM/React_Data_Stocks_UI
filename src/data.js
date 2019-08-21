@@ -7,7 +7,8 @@ export default [
     invested_amount: 17952.07,
     percentage: 22.06,
     unrealiszed_p_l: 3676.93,
-    return_percent: 20.48
+    return_percent: 20.48,
+    type: "MF"
   },
   {
     scrip: "MFEM",
@@ -17,7 +18,8 @@ export default [
     invested_amount: 4725.84,
     percentage: 5.81,
     unrealiszed_p_l: 146.16,
-    return_percent: 3.09
+    return_percent: 3.09,
+    type: "MF"
   },
   {
     scrip: "JPEM",
@@ -27,7 +29,8 @@ export default [
     invested_amount: 18597.6,
     percentage: 22.86,
     unrealiszed_p_l: 1377.6,
-    return_percent: -7.41
+    return_percent: -7.41,
+    type: "MF"
   },
   {
     scrip: "KEMQ",
@@ -37,7 +40,8 @@ export default [
     invested_amount: 17811.04,
     percentage: 21.89,
     unrealiszed_p_l: 1470.64,
-    return_percent: -8.26
+    return_percent: -8.26,
+    type: "MF"
   },
   {
     scrip: "KLDW",
@@ -47,7 +51,8 @@ export default [
     invested_amount: 13765.36,
     percentage: 16.92,
     unrealiszed_p_l: 3441.34,
-    return_percent: 25.0
+    return_percent: 25.0,
+    type: "ETF"
   },
   {
     scrip: "KOIN",
@@ -57,6 +62,7 @@ export default [
     invested_amount: 8509.0,
     percentage: 10.46,
     unrealiszed_p_l: -0.0,
-    return_percent: 0.0
+    return_percent: 0.0,
+    type: "ETF"
   }
 ];
